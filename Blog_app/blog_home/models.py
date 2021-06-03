@@ -15,6 +15,6 @@ class blog_table(Model):
     media_id=CharField(max_length=100) # path to the media used
 
 class media_table(Model):
-    id=IntegerField()
+    id_cus=IntegerField()
     data=BinaryField() # data => music,video,image
 
