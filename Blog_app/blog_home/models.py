@@ -1,12 +1,18 @@
 from django.db.models import CharField,IntegerField,Model,BinaryField,DateField
 
 # Create your models here.
-class User(Model):
-    username=CharField(max_length=100)
-    password=CharField(max_length=100)
-    email=CharField(max_length=100)
-    phone=CharField(max_length=100)
-    profile_pic=BinaryField()
+# class User(Model):
+#     username=CharField(max_length=100)
+#     password=CharField(max_length=100)
+#     email=CharField(max_length=100)
+#     phone=CharField(max_length=100)
+#     profile_pic=BinaryField()
+
+username="admin"
+password="admin"
+email="admin@gmail.com"
+phone="2223334445"
+profile_pic=None
 
 class blog_table(Model):
     blog_title=CharField(max_length=100)
