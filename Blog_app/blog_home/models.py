@@ -16,9 +16,9 @@ profile_pic=None
 
 class blog_table(Model):
     blog_title=CharField(max_length=100)
-    blog_html=CharField(max_length=100) # denotes path to the html file of the blog
+    # blog_html=CharField(max_length=100) # denotes path to the html file of the blog
     date=DateField()
-    media_id=CharField(max_length=100) # path to the media used
+    # media_id=CharField(max_length=100) # path to the media used
 
 class media_table(Model):
     id_cus=IntegerField()
